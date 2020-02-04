@@ -102,6 +102,12 @@ ufw allow 80/tcp
 ufw allow 3306/tcp
 ```
 
+7. docker-compose 실행
+
+```
+폴더 최상위 docker-compose.yml 파일 위치에서 docker-compose up -d 
+```
+
 ## 사용 예제
 
 스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
