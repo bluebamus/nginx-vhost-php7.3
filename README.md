@@ -126,7 +126,7 @@ docker-compose는 apt-get을 통해 설치가 가능한 것으로 확인됨
 임도현 Owner S/W, H/W, 개발자/기획자, bluebamus@gmail.com
 
 <!-- Markdown link & img dfn's -->
-[docker-install]: https://hcnam.tistory.com/25
+[docker-install](https://hcnam.tistory.com/25)
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
