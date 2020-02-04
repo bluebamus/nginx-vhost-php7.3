@@ -110,12 +110,9 @@ ufw allow 3306/tcp
 ## 개발 환경 설정
 
 만약 Docker 설치와 Docker-compose 설치가 되어 있지 않다면 다음 사항을 확인함
-[docker-install]
 
-```sh
-docker 설치 참고 사이트 [docker-install]
-docker-compose는 apt-get을 통해 설치가 가능한 것으로 확인됨
-```
+> docker 설치 참고 사이트 [docker-install]  
+> docker-compose는 apt-get을 통해 설치가 가능한 것으로 확인됨
 
 ## 업데이트 내역
 
