@@ -112,7 +112,7 @@ ufw allow 3306/tcp
 만약 Docker 설치와 Docker-compose 설치가 되어 있지 않다면 다음 사항을 확인함
 
 ```sh
-docker 설치 참고 사이트 docker-install  
+docker 설치 참고 사이트 docker-install [docker-install](https://hcnam.tistory.com/25)  
 docker-compose는 apt-get을 통해 설치가 가능한 것으로 확인됨
 ```
 
