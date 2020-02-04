@@ -4,8 +4,10 @@
 ## 서비스 특징
 
 > shell script를 이용해 nginx와 php의 conf 파일을 도메인마다 독릭적으로 만들 수 있도록 제공
+
 > nginx와 php의 모든 config 파일을 Docker-compose의 volumes으로 연동시켜 구동 전, 구동 후에도 
   exec로 컨테이너에 들어가지 않고 제어가 가능함
+  
 > 단점으로는 상위와 같이 개별적인 conf를 작성하는것을 요구하다보니 독립적인 이미지로 만들기 어려움
   만약 외부와의 연동을 배제하고 독립적인 이미지로 구축하고자 한다면 제공되는 shell script로 conf를 만들고
   Docker 파일 혹은 Docker-compose 파일을 수정하여 컨테이너 내부에 복사하거나 스크립트를 수행하도록 만들면 된다.
